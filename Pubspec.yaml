@@ -1,0 +1,25 @@
+ name: jarvis_ai
+description: Jarvis AI - Hindi/English voice assistant (mobile-ready)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  provider: ^6.0.5
+  speech_to_text: ^4.3.0
+  flutter_tts: ^3.5.2
+  shared_preferences: ^2.1.1
+  wakelock: ^0.6.2
+  permission_handler: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
